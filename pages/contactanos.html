@@ -48,41 +48,108 @@
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="buscar">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
-                    <a class="navbar-brand" href="#">
-                        <img src="../assets/img/bolsa-de-la-compra.png" alt="Bootstrap" width="30" height="24">
-                    </a>
+
                 </div>
             </div>
             </div>
         </nav>
     </header>
-
     <main>
         <section>
-            <div class="contactanos">
-
-                <p class="contactanos_titulo">Contactanos</p>
-
-                <div class="contactanos_cuadro">
-                    <form class="contactanos_cuadro_texto" action="" method="get">
-                        <p>Nombre: <input class="input_estilo" type="text" name="nombre" size="40"></p><br>
-                        <p>Email: <input class="input_estilo" type="email" name="correo"></p><br>
-                        <p>Telefono: <input class="input_estilo" type="number" name="telefono"></p><br>
-                        <textarea name="texto" rows="5" cols="40" placeholder="Escriba algo..."></textarea><br>
-                        <p>
-                            <input class="boton" type="submit" value="Enviar">
-                            <input class="boton" type="reset" value="Borrar">
-                        </p>
-                    </form>
+            <section class="contact py-5 bg" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Contactanos</h4>
+                            <hr>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="address">
+                                
+                            <h5>Direccion:</h5>
+                            <ul class="list-unstyled">
+                                <li> Lima</li>
+                                <li> PE 01-1304123</li>
+                                <li> San Martin, Av. Venezuela</li>
+                            </ul>
+                            
+                            </div>
+                            <div class="email">
+                            <h5>Email:</h5>
+                            <ul class="list-unstyled">
+                                <li> pcabrejos@gmail.com</li>
+                                <li> kgaray@gmail.com</li>
+                            </ul>
+                            </div>
+                            <div class="phone">
+                                <h5>Phone:</h5>
+                                <ul class="list-unstyled">
+                                <li> +51- 987634832</li>
+                                <li> +51- 984997223</li>
+                            </ul>
+                            </div>
+                            <hr>
+                            <div class="social">
+                            <ul class="list-inline list-unstyled">
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#"><i class="fa fa-youtube-play fa-2x"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-body">
+                                     <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                              <input id="Full Name" name="Full Name" placeholder="Nombre" class="form-control" type="text">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                            </div>
+                                          </div>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <input id="Mobile No." name="Mobile No." placeholder="# Celular" class="form-control" required="required" type="text">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                      
+                                                      <select id="inputState" class="form-control">
+                                                        <option selected>Elegir ...</option>
+                                                        <option> Nuevo Comprador</option>
+                                                        <option> Cotizacion</option>
+                                                        <option> Informacion</option>
+                                                        <option> Soporte</option>
+                                                      </select>
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                      <textarea id="comment" name="comment" cols="40" rows="5" placeholder="Descripción..."class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-row">
+                                            <button type="button" class="btn btn-danger">Enviar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
-            </div>
-
-
-        </section>
+                </section>
 
     </main>
 
-     <footer>
+    <footer>
         <footer class="text-center text-lg-start bg-white text-muted">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <div class="me-5 d-none d-lg-block">
@@ -111,20 +178,20 @@
             </section>
             <section class="">
                 <div class="container text-center text-md-start mt-5">
-                    
+
                     <div class="row mt-3">
-                       
+
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                          
+
                             <h6 class="text-uppercase fw-bold mb-4">
                                 <i class="fas fa-gem me-3 text-secondary"></i><img class="logo_footer"
                                     src="../assets/img/logo-horizontal.png" alt="logofooter">
                             </h6>
                             <p>©babywuimportadora</p>
                         </div>
-                       
+
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        
+
                             <h6 class="text-uppercase fw-bold mb-4">
                                 Otros
                             </h6>
@@ -144,9 +211,9 @@
                                 <a href="#!" class="text-reset">Terminos y condiciones</a>
                             </p>
                         </div>
-                    
+
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            
+
                             <h6 class="text-uppercase fw-bold mb-4">
                                 Redes sociales
                             </h6>
@@ -157,7 +224,8 @@
                             </p>
                             <p>
                                 <a href="https://www.facebook.com/babywu.peru" class="text-reset"><img
-                                        class="pie_de_pagina_img" src="../assets/img/facebooklogo.jpg" alt="logo_facebook"></a>
+                                        class="pie_de_pagina_img" src="../assets/img/facebooklogo.jpg"
+                                        alt="logo_facebook"></a>
                             </p>
                             <p>
                                 <a href="#!" class="text-reset"><img class="pie_de_pagina_img"
@@ -165,7 +233,7 @@
                             </p>
 
                         </div>
-                    
+
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
@@ -177,15 +245,15 @@
                             <p><i class="fas fa-phone me-3 text-secondary"></i> 01 376 9898 - PE</p>
 
                         </div>
-  
-                    </div>            
+
+                    </div>
                 </div>
             </section>
         </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
