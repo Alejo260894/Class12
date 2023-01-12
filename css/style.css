@@ -114,18 +114,21 @@ section div img {
   .conoce_mas_ofertas div {
     width: 300px;
     height: auto; }
-  .conoce_mas_ofertas_1 {
-    background: #E0EDFD;
-    width: 100%;
-    height: auto; }
-  .conoce_mas_ofertas_2 {
-    background: #F8DADA;
-    width: 100%;
-    height: auto; }
-  .conoce_mas_ofertas_3 {
-    background: #F6E0BD;
-    width: 100%;
-    height: auto; }
+
+.conoce_mas_ofertas_1 {
+  background: #E0EDFD;
+  width: 100%;
+  height: auto; }
+
+.conoce_mas_ofertas_2 {
+  background: #F8DADA;
+  width: 100%;
+  height: auto; }
+
+.conoce_mas_ofertas_3 {
+  background: #F6E0BD;
+  width: 100%;
+  height: auto; }
 
 .mas_vendidos {
   width: 100%;

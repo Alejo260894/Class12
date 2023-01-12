@@ -36,21 +36,12 @@ section div img {
         height: auto;
 
     }
+}
 
-    &_ofertas_1 {
-        background: #E0EDFD;
-        width: 100%;
-        height: auto;
-    }
-
-    &_ofertas_2 {
-        background: #F8DADA;
-        width: 100%;
-        height: auto;
-    }
-
-    &_ofertas_3 {
-        background: #F6E0BD;
+@each $color,
+$valor in $colors{
+    .conoce_mas_ofertas#{$color} {
+        background: $valor;
         width: 100%;
         height: auto;
     }
@@ -146,8 +137,9 @@ section div img {
         width: 300px;
         height: auto;
     }
-    
+
 }
+
 @media screen and (max-width: 520px) {
     .nuevo_cabecera img {
         width: 100%;
@@ -155,6 +147,7 @@ section div img {
 
     }
 }
+
 @keyframes efecto {
     0% {
         width: 100%;
@@ -182,10 +175,12 @@ section div img {
 .nuevo_producto {
     width: 100%;
     background: $cabecera;
-    &_articulo{
+
+    &_articulo {
         width: 300px;
         height: auto;
     }
+
     &_lista {
         width: 100%;
         padding: 70px;
